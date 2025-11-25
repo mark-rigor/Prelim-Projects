@@ -49,3 +49,4 @@ rounded_dailyAverageReturns = round(Average_Return2, 3)
 
 print(f"The stock price for {Stockname_str} every day of the week was {stock_data[Stockname_str]} ")
 print("The average return for the week is: " + str(rounded_dailyAverageReturns))
+print("change numero cinco brochacho this git commit is not working")
