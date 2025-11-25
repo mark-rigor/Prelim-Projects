@@ -1,7 +1,6 @@
 # I created a Empty List to store all the stock data such as prices and ticker symbol
 stock_data = {}
 
-
 #Name of Stock
 Stockname_str = input("Stock Ticker: ")
 
@@ -48,6 +47,5 @@ Average_Return2 = daily_average_return(Stockprice1, Stockprice2, Stockprice3, St
 #Rounding Average_Return
 rounded_dailyAverageReturns = round(Average_Return2, 3)
 
-
 print(f"The stock price for {Stockname_str} every day of the week was {stock_data[Stockname_str]} ")
-print("The average return for the week is: " + str(rounded_dailyAverageReturns))# FORCE CHANGE TO PUSH
+print("The average return for the week is: " + str(rounded_dailyAverageReturns))
